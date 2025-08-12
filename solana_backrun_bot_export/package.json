@@ -1,0 +1,22 @@
+{
+  "name": "solana-backrun-bot",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "mock": "ts-node src/services/mockRun.ts",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "mocha -r ts-node/register tests/**/*.ts || true"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.78.0",
+    "node-fetch": "^2.6.7",
+    "@coral-xyz/anchor": "^0.32.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "signature": "5GkFixtureVictimTx",
+  "logs": [
+    "swap: SOL->USDC",
+    "pool: Raydium",
+    "amount_in: 50000000000"
+  ]
+}
